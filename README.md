@@ -26,5 +26,11 @@ sftp username@ip_address/hostname
 ```
 
 
+```SHELL
+
+ssh -oHostKeyAlgorithms=+ssh-dss user@host
+
+```
+
 ## Docker 
 https://hub.docker.com/r/atmoz/sftp
