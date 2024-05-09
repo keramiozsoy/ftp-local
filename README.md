@@ -17,5 +17,10 @@ kubectl exec -it POD_NAME /bin/sh
 apk add open-ssh
 ```
 
+```SHELL
+sftp username@ip_address/hostname
+```
+
+
 ## Docker 
 https://hub.docker.com/r/atmoz/sftp
