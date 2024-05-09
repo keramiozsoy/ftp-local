@@ -14,6 +14,10 @@ kubectl exec -it POD_NAME /bin/sh
 ```
 
 ```SHELL
+telnet ip_address:22
+```
+
+```SHELL
 apk add open-ssh
 ```
 
